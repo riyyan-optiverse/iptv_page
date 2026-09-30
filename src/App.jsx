@@ -87,7 +87,6 @@ function App() {
         <div className="absolute bottom-[-300px] right-[-100px] h-[500px] w-[500px] rounded-full bg-blue-600/10 blur-[130px]" />
       </div>
 
-      
       <header className="sticky top-0 z-50 border-b border-white/10 bg-[#070714]/80 backdrop-blur-xl">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
           <a href="#" className="flex items-center gap-3">
@@ -129,7 +128,6 @@ function App() {
         </nav>
       </header>
 
-      
       <main>
         <section className="relative px-6 pb-4 pt-16 sm:pt-24">
           <div className="mx-auto max-w-6xl text-center">
@@ -177,7 +175,6 @@ function App() {
           </div>
         </section>
 
-        
         <section id="features" className="px-6 py-14">
           <div className="mx-auto max-w-6xl">
             <div className="max-w-2xl">
@@ -220,7 +217,6 @@ function App() {
           </div>
         </section>
 
-      
         <section
           id="plans"
           className="border-y border-white/10 bg-white/[0.02] px-6 py-24"
@@ -244,16 +240,19 @@ function App() {
               {plans.map((plan) => (
                 <div
                   key={plan.name}
-                  className={`relative rounded-3xl p-7 border border-purple-500/50 shadow-lg shadow-purple-500/20  transition-all duration-300 
-           hover:-translate-y-1 
-           hover:shadow-2xl 
-           hover:shadow-purple-500/20 
-           hover:border-purple-400/30
-           hover:bg-white/[0.06]" ${
-             plan.popular
-               ? "border-purple-400/50 bg-gradient-to-b from-purple-500/15 to-white/[0.03] shadow-2xl shadow-purple-500/10"
-               : "border-white/10 bg-white/[0.03]"
-           }`}
+                  className={`relative rounded-3xl p-7
+  border border-purple-500/50
+  shadow-[0_0_35px_8px_rgba(168,85,247,0.15)]
+  transition-all duration-300
+
+  hover:-translate-y-1
+  hover:shadow-[0_0_45px_10px_rgba(168,85,247,0.25)]
+  hover:border-purple-400/50
+  hover:bg-white/[0.06]" ${
+    plan.popular
+      ? "border-purple-400/50 bg-gradient-to-b from-purple-500/15 to-white/[0.03] shadow-2xl shadow-purple-500/10"
+      : "border-white/10 bg-white/[0.03]"
+  }`}
                 >
                   {plan.popular && (
                     <div className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 px-4 py-1 text-xs font-bold">
@@ -291,7 +290,6 @@ function App() {
           </div>
         </section>
 
-       
         <section className="px-6 py-24">
           <div className="mx-auto max-w-6xl">
             <div className="text-center">
@@ -348,7 +346,6 @@ function App() {
           </div>
         </section>
 
-        
         <section id="faq" className="bg-white/[0.02] px-6 py-24">
           <div className="mx-auto max-w-3xl">
             <div className="text-center">
@@ -363,7 +360,7 @@ function App() {
               {faqs.map((faq) => (
                 <details
                   key={faq.q}
-                  className="group rounded-2xl border border-white/10 bg-white/[0.03] p-6"
+                  className="group rounded-2xl  p-6 border border-purple-500/50 "
                 >
                   <summary className="cursor-pointer list-none font-semibold">
                     <div className="flex items-center justify-between gap-4">
@@ -384,7 +381,6 @@ function App() {
           </div>
         </section>
 
-        
         <section id="contact" className="px-6 py-24">
           <div className="relative mx-auto max-w-5xl overflow-hidden rounded-3xl border border-purple-400/20 bg-gradient-to-br from-purple-600/20 via-white/[0.03] to-blue-600/10 px-6 py-20 text-center">
             <div className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-64 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-purple-500/20 blur-[100px]" />
@@ -411,7 +407,6 @@ function App() {
         </section>
       </main>
 
-     
       <footer className="border-t border-white/10 px-6 py-10">
         <div className="mx-auto flex max-w-6xl flex-col justify-between gap-6 md:flex-row md:items-center">
           <div>
