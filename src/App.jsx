@@ -199,7 +199,7 @@ function App() {
               {features.map((feature) => (
                 <div
                   key={feature.title}
-                  className="group rounded-2xl border border-white/10 bg-white/[0.03] p-7   transition-all duration-300 
+                  className="group rounded-2xl  p-7 border border-purple-500/50 shadow-lg shadow-purple-500/20  transition-all duration-300 
            hover:-translate-y-1 
            hover:shadow-2xl 
            hover:shadow-purple-500/20 
@@ -220,7 +220,7 @@ function App() {
           </div>
         </section>
 
-        {/* PLANS */}
+      
         <section
           id="plans"
           className="border-y border-white/10 bg-white/[0.02] px-6 py-24"
@@ -244,7 +244,7 @@ function App() {
               {plans.map((plan) => (
                 <div
                   key={plan.name}
-                  className={`relative rounded-3xl border p-7  transition-all duration-300 
+                  className={`relative rounded-3xl p-7 border border-purple-500/50 shadow-lg shadow-purple-500/20  transition-all duration-300 
            hover:-translate-y-1 
            hover:shadow-2xl 
            hover:shadow-purple-500/20 
@@ -325,7 +325,7 @@ function App() {
               ].map(([number, title, text, whatsapp]) => (
                 <div
                   key={number}
-                  className="rounded-2xl border border-white/10 bg-white/[0.03] p-8 
+                  className="rounded-2xl  p-8 border border-purple-500/50 shadow-lg shadow-purple-500/20
            transition-all duration-300 
            hover:-translate-y-1 
            hover:shadow-2xl 
