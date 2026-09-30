@@ -164,7 +164,7 @@ function App() {
                 href={whatsappLink}
                 target="_blank"
                 rel="noreferrer"
-                className="flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-8 py-4 font-bold backdrop-blur transition hover:bg-white/10"
+                className="flex items-center justify-center gap-2 rounded-xl  bg-white/5 px-8 py-4 font-bold backdrop-blur transition hover:bg-white/10 border border-purple-500/50"
               >
                 <WhatsAppIcon />
                 Talk to Us
@@ -277,7 +277,7 @@ function App() {
                     href={whatsappLink}
                     target="_blank"
                     rel="noreferrer"
-                    className={`mt-7 block rounded-xl px-5 py-3 text-center font-bold transition ${
+                    className={`mt-7 block rounded-xl px-5 py-3 text-center font-bold transition border border-purple-500/50 ${
                       plan.popular
                         ? "bg-white text-black hover:bg-slate-200"
                         : "bg-white/10 hover:bg-white/15"
@@ -291,7 +291,7 @@ function App() {
           </div>
         </section>
 
-        {/* HOW IT WORKS */}
+       
         <section className="px-6 py-24">
           <div className="mx-auto max-w-6xl">
             <div className="text-center">
