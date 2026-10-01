@@ -382,8 +382,8 @@ function App() {
         </section>
 
         <section id="contact" className="px-6 py-24">
-          <div className="relative mx-auto max-w-5xl overflow-hidden rounded-3xl border border-purple-400/20 bg-gradient-to-br from-purple-600/20 via-white/[0.03] to-blue-600/10 px-6 py-20 text-center">
-            <div className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-64 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-purple-500/20 blur-[100px]" />
+          <div className="relative mx-auto max-w-5xl overflow-hidden rounded-3xl border border-purple-500/50 shadow-lg shadow-purple-500/20 bg-gradient-to-br from-purple-600/20 via-white/[0.03] to-blue-600/10 px-6 py-20 text-center">
+            <div className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-64 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-purple-500/20 blur-[100px] border border-purple-500/50 shadow-lg shadow-purple-500/20" />
 
             <h2 className="text-4xl font-black sm:text-5xl">
               Ready to get started?
